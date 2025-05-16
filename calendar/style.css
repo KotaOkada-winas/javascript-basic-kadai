@@ -1,0 +1,67 @@
+@charset  "UTF-8";
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-size: 1rem;
+}
+
+#calendar {
+  border: solid 1px black;
+  padding: 10px 20px 60px 20px;
+  width: 800px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 60px;
+} 
+
+#dow {
+  display: flex;
+  justify-content: center;
+}
+
+#dow h2 {
+  width: 80px;
+  text-align: center;
+  margin: 11px;
+  
+}
+
+#calendar #dow .sunday {
+  color: pink;
+}
+
+#calendar #dow .saturday {
+  color: #0af;
+}
+
+#days {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#days p {
+  border: solid 1px black;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+#days .sunday {
+  background-color: pink;
+}
+
+#days .saturday {
+  background-color: #0af;
+}
